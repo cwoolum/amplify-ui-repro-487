@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "baseUrl": "./src",
+    "module": "esnext",
+    "declaration": true,
+    "declarationMap": true,
+    "declarationDir": "./dist",
+    "outDir": "dist",
+    "strict": true,
+    "allowJs": true,
+    "esModuleInterop": true,
+    "downlevelIteration": true,
+    "resolveJsonModule": true,
+    "typeRoots": ["./node_modules/@types"],
+    "jsx": "react-jsx",
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": true,
+    "incremental": true,
+    "sourceMap": true,
+    "noFallthroughCasesInSwitch": true,
+    "moduleResolution": "node"
+  },
+  "exclude": ["build", "node_modules", "dist"],
+  "include": ["src/**/*.ts", "src/**/*.tsx"]
+}

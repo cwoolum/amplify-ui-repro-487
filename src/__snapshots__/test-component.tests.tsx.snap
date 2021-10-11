@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TestComponent should match the snapshot 1`] = `
+<div
+  class="amplify-flex"
+>
+  I'm some text
+  <div
+    class="amplify-flex"
+  >
+    <button
+      class="amplify-button amplify-field-group__control"
+      data-fullwidth="false"
+      type="button"
+    >
+      Click me
+    </button>
+  </div>
+</div>
+`;
